@@ -1,10 +1,10 @@
 # Karla Avalos Portfolio Website
 
-## Description
+### Description
 
-## Features
+### Features
 
-## Credit
+### Credit
 - CSS
 	- [Flexbox Froggy](https://flexboxfroggy.com/)
 	- [Box Shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp)
