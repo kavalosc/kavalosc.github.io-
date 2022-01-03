@@ -6,10 +6,10 @@
 
 ## Credit
 - CSS
-	- [https://flexboxfroggy.com/]
-	- [https://www.w3schools.com/cssref/css3_pr_box-shadow.asp]
-	- [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container]
-	- [https://coolors.co/053225-45404f-e2b3a2-ebebff-effbf6]
+	- [Flexbox Froggy](https://flexboxfroggy.com/)
+	- [Box Shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp)
+	- [Aligning Items in Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container)
+	- [Color picker](https://coolors.co/053225-45404f-e2b3a2-ebebff-effbf6)
 - Material Icons
 	- [https://www.w3schools.com/icons/google_icons_intro.asp]
 	- [https://fonts.google.com/icons?selected=Material+Icons]
