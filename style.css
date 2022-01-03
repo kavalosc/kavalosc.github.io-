@@ -3,12 +3,46 @@
 }
 
 body {
-background-color: red;
+    background-color: #EFFBF6;
+}
+
+nav {
+    text-align: right;
 }
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+
+
 }
+
+header .circle {
+    height: 25vw;
+    width: 25vw;
+    border-radius: 50%;
+    background-color: #E2B3A2;
+    vertical-align: middle;
+    align-self: center;
+    justify-self: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+header .headerText {
+    width: 50%;
+    vertical-align: middle;
+    align-self center;
+    justify-self: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2vw;
+}
+
+
 
 
