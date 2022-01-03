@@ -24,9 +24,14 @@ body {
     display: flex;
 }
 
-.logo h4 {
-    margin-right: .5em;
-}
+    .logo h4 {
+        margin-right: .5em;
+        color: #45404F;
+    }
+
+    .logo p {
+        color: #053225;
+    }
 
 nav {
     text-align: right;
@@ -40,6 +45,8 @@ nav {
         nav a:hover {
             color: #E2B3A2;
         }
+
+/* Index Page */
 
 header {
     display: flex;
@@ -72,12 +79,14 @@ header .headerText {
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 2vw;
+    color: #45404F;
 }
 
 .headerText h1 {
     margin-top: .3em;
     margin-bottom: .3em;
     font-size: 4em;
+    color: #053225;
 }
 
 
@@ -85,12 +94,50 @@ header .headerText {
     width: 5em;
     height: 5em;
     border-radius: 50%;
-    background-color: #45404F;
+    background-color: #053225;
     border: solid transparent;
-    color: antiquewhite;
+    color: #EBEBFF;
     margin-right: 1em;
     margin-top: 1.5em;
 }
+
+    .subsections button:hover {
+        color: #053225;
+        background-color: #EBEBFF;
+        border: solid 1px #053225;
+    }
+
+/* Contact and Portfolio */
+
+.box {
+    padding: 1em;
+    margin-top: 3em;
+    margin-left: 15%;
+    margin-right: 15%;
+    box-shadow: 1px 3px 10px #053225;
+}
+
+.line {
+    display: flex;
+    padding: .5em;
+    vertical-align: middle;
+}
+
+    .line i {
+        margin-right: 1em;
+        vertical-align: middle;
+    }
+
+.miniLine {
+    margin-left: 3.5em;
+    display: flex;
+}
+
+    .miniLine li {
+        margin-left: 1.5em;
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }
 
 
 
