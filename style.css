@@ -3,8 +3,9 @@
 }
 
 body {
-    background-color: #EFFBF6;
+    background-color: #FAF9F6;
 }
+
 
 .topBar {
     display: flex;
@@ -16,8 +17,12 @@ body {
     width: 1.3em;
     height: 1.3em;
     border-radius: 50%;
-    background-color: #E2B3A2;
+    background-color: #F9654E;
     margin-right: .5em;
+}
+
+a {
+    text-decoration: none;
 }
 
 .logo {
@@ -26,11 +31,11 @@ body {
 
     .logo h4 {
         margin-right: .5em;
-        color: #45404F;
+        color: #0A0A0A;
     }
 
     .logo p {
-        color: #053225;
+        color: #048A81;
     }
 
 nav {
@@ -39,11 +44,11 @@ nav {
 
     nav a {
         text-decoration: none;
-        color: #45404F;
+        color: #0A0A0A;
         margin-left: .5em;
     }
         nav a:hover {
-            color: #E2B3A2;
+            color: #F9654E;
         }
 
 /* Index Page */
@@ -59,34 +64,34 @@ header {
 
 }
 
-header .circle {
-    height: 25vw;
-    width: 25vw;
-    border-radius: 50%;
-    background-color: #E2B3A2;
-    vertical-align: middle;
-    align-self: center;
-    justify-self: center;
-    margin-top: auto;
-    margin-bottom: auto;
-}
+    header .circle {
+        height: 25vw;
+        width: 25vw;
+        border-radius: 50%;
+        background-color: #F9654E;
+        vertical-align: middle;
+        align-self: center;
+        justify-self: center;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
 
-header .headerText {
-    width: 50%;
-    vertical-align: middle;
-    align-self center;
-    justify-self: center;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 2vw;
-    color: #45404F;
-}
+    header .headerText {
+        width: 50%;
+        vertical-align: middle;
+        align-self center;
+        justify-self: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 2vw;
+        color: #03635D;
+    }
 
 .headerText h1 {
     margin-top: .3em;
     margin-bottom: .3em;
     font-size: 4em;
-    color: #053225;
+    color: #0A0A0A;
 }
 
 
@@ -94,50 +99,109 @@ header .headerText {
     width: 5em;
     height: 5em;
     border-radius: 50%;
-    background-color: #053225;
+    background-color: #212518;
     border: solid transparent;
-    color: #EBEBFF;
+    color: #FCFAFA;
     margin-right: 1em;
     margin-top: 1.5em;
 }
 
     .subsections button:hover {
-        color: #053225;
-        background-color: #EBEBFF;
-        border: solid 1px #053225;
+        color: #03635D;
+        background-color: #DEF7E9;
+        border: solid 1px #03635D;
     }
 
 /* Contact and Portfolio */
 
 .box {
-    padding: 1em;
+    padding: 2em;
     margin-top: 3em;
     margin-left: 15%;
     margin-right: 15%;
-    box-shadow: 1px 3px 10px #053225;
+    box-shadow: 1px 3px 10px #E9E5D8;
+    color: #0A0A0A;
 }
 
 .line {
     display: flex;
     padding: .5em;
     vertical-align: middle;
+    margin-bottom: .5em;
 }
 
     .line i {
         margin-right: 1em;
         vertical-align: middle;
+        margin-top: auto;
+        margin-bottom: auto;
+        color: #048A81;
     }
+
+    .line h4 {
+        vertical-align: middle;
+        margin-top: auto;
+        margin-bottom: auto;
+        color: #F9654E;
+    }
+
+    .line a {
+        text-decoration: none;
+        color: #053225;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+        .line a:hover {
+            color: #E2B3A2;
+        }
 
 .miniLine {
     margin-left: 3.5em;
     display: flex;
+    margin-bottom: 1em;
 }
 
     .miniLine li {
-        margin-left: 1.5em;
+        margin-left: 1.7em;
         margin-top: .5em;
         margin-bottom: .5em;
     }
+    .miniLine p {
+        width: 15%;
+    }
+    .miniLine h4 {
+        color: #048A81;
+    }
+
+    .miniLine ul {
+        width: 85%;
+    }
+
+        .miniLine ul p {
+            width: 100%;
+            font-style: italic;
+            margin-top: .3em;
+            color: #048A81;
+        }
+
+.undated {
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+    .undated li {
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }
+
+hr {
+    margin-bottom: 1em;
+}
+
+.titleBar {
+    text-align: center;
+    margin-top: .5em;
+
+}
 
 
 
