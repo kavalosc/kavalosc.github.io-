@@ -3,26 +3,32 @@
 }
 
 body {
-    background-color: #FAF9F6;
+    background-color: white;
+    font-family:sans-serif;
+}
+
+p {
+    color: #999999;
 }
 
 
 .topBar {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    padding: 2em;
 }
 
 .dot {
     width: 1.3em;
     height: 1.3em;
     border-radius: 50%;
-    background-color: #F9654E;
+    background-color:black;
     margin-right: .5em;
 }
 
 a {
     text-decoration: none;
+    color: grey;
 }
 
 .logo {
@@ -31,11 +37,10 @@ a {
 
     .logo h4 {
         margin-right: .5em;
-        color: #0A0A0A;
+        color: black;
     }
-
     .logo p {
-        color: #048A81;
+        font-family: serif;
     }
 
 nav {
@@ -44,72 +49,127 @@ nav {
 
     nav a {
         text-decoration: none;
-        color: #0A0A0A;
         margin-left: .5em;
     }
         nav a:hover {
-            color: #F9654E;
+            color:#479B7F;
         }
 
 /* Index Page */
 
 header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 5%;
-
-
+    text-align: center;
+    margin: 5em;
+    background-color: #D8EDE6;
+    padding: 4em;
+    margin-top: 1em;
 }
 
-    header .circle {
-        height: 25vw;
-        width: 25vw;
-        border-radius: 50%;
-        background-color: #F9654E;
-        vertical-align: middle;
-        align-self: center;
-        justify-self: center;
+    header .header-flex {
+        display: flex;
+        justify-content: center;
+    }
+    header .header-flex img {
+        width: 25%;
+        height: auto;
+        margin: 2em;
         margin-top: auto;
         margin-bottom: auto;
     }
 
     header .headerText {
-        width: 50%;
+        width: 25%;
+        background-color: white;
+        height: auto;
+        margin: 2em;
+        text-align: center;
+        aspect-ratio: 3/4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header hr {
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        color: black;
+        background-color: black;
+        border: solid 1px;
+        margin-bottom: 1.5em;
+        margin-top: 1.5em;
+    }
+
+    /*
+
+    header .circle {
+        height: 25vw;
+        width: 25vw;
+        border-radius: 50%;
+        background-color:black;
+        vertical-align: middle;
+        align-self: center;
+        justify-self: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        display: flex;
+    }
+
+    header .circle img {
+        justify-content: center;
+        align-self: center;
+        border-radius: 50%;
+        width: 100%;
+    }
+
+    header .headerText {
+        width: 45%;
         vertical-align: middle;
         align-self center;
         justify-self: center;
         margin-top: auto;
         margin-bottom: auto;
-        margin-left: 2vw;
-        color: #03635D;
+        color: black
+        ;
     }
-
+    
+*/
 .headerText h1 {
     margin-top: .3em;
-    margin-bottom: .3em;
-    font-size: 4em;
-    color: #0A0A0A;
+    letter-spacing: .3em;
+    font-size: 2.5em;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+header p {
+    margin-bottom: .5em;
+    font-family: serif;
+    font-style: italic;
+}
+
+.subs {
+    display: flex;
+    justify-content: center;
 }
 
 
 .subsections button {
-    width: 5em;
-    height: 5em;
+    width: 6em;
+    height: 6em;
     border-radius: 50%;
-    background-color: #212518;
+    background-color:black;
     border: solid transparent;
-    color: #FCFAFA;
     margin-right: 1em;
     margin-top: 1.5em;
+    font-family: "Quicksand";
+    color: white;
 }
 
     .subsections button:hover {
-        color: #03635D;
-        background-color: #DEF7E9;
-        border: solid 1px #03635D;
+        color: black;
+        background-color:transparent;
+        border: solid 1px black;
     }
 
 /* Contact and Portfolio */
@@ -119,8 +179,30 @@ header {
     margin-top: 3em;
     margin-left: 15%;
     margin-right: 15%;
-    box-shadow: 1px 3px 10px #E9E5D8;
-    color: #0A0A0A;
+    /*box-shadow: 1px 3px 10px #bbbbbb;*/
+    color: black
+    ;
+    margin-bottom: 3em;
+}
+.box-content {
+    padding: 2em;
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    /*box-shadow: 1px 3px 10px #bbbbbb;*/
+    color: black;
+    ;
+    margin-bottom: 3em;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    margin-top: 3em;
+    /*box-shadow: 1px 3px 10px #bbbbbb;*/
+    color: black;
+    margin-bottom: 3em;
 }
 
 .line {
@@ -135,24 +217,22 @@ header {
         vertical-align: middle;
         margin-top: auto;
         margin-bottom: auto;
-        color: #048A81;
     }
 
     .line h4 {
         vertical-align: middle;
         margin-top: auto;
         margin-bottom: auto;
-        color: #F9654E;
     }
 
     .line a {
         text-decoration: none;
-        color: #053225;
+        color: black;
         margin-top: auto;
         margin-bottom: auto;
     }
         .line a:hover {
-            color: #E2B3A2;
+            color:#479B7F;
         }
 
 .miniLine {
@@ -169,9 +249,6 @@ header {
     .miniLine p {
         width: 15%;
     }
-    .miniLine h4 {
-        color: #048A81;
-    }
 
     .miniLine ul {
         width: 85%;
@@ -181,7 +258,7 @@ header {
             width: 100%;
             font-style: italic;
             margin-top: .3em;
-            color: #048A81;
+            color: #479B7F;
         }
 
 .undated {
@@ -203,6 +280,48 @@ hr {
 
 }
 
+footer {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+    footer hr {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer a {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+
+.page-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+/* About page */
+
+.about-container {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.about-container .column {
+    width: 33%;
+}
+
+.column .line h4{
+    margin-right: 1em;
+}
 
 
 
+ 
