@@ -112,8 +112,8 @@ header {
 
 .subsections button {
     width: 6em;
-    height: 6em;
-    border-radius: 50%;
+    height: 4em;
+    border-radius: 2em;
     background-color:black;
     border: solid transparent;
     margin-right: 1em;
