@@ -5,8 +5,9 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
-         
-          <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
     <div class="page-container">
@@ -33,7 +34,7 @@
 
         <h1 class="titleBar">Contact</h1>
         <div class="centered">
-        <div class="box-contact">
+        <div class="box-contact"  data-aos="fade-up">
             <div class="line">
                 <i class="material-icons">phone</i>
                 <p>(714) 914 - 3105</p>
@@ -61,6 +62,9 @@
         </footer>
     </div>
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

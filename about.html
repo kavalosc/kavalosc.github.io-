@@ -7,8 +7,8 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
-             
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div class="page-container">
@@ -34,16 +34,16 @@
 
         <div class="about-container">
 
-            <div class="column">
+            <div class="column" data-aos="fade-up">
                 <h2>About</h2>
                 <p>As an undergraduate student, I'm currently studying Informatics with a specilaization in Human-Computer Interaction in order to change the future of design and technology. When I'm not coding or studying, I love to design, sketch, and be active.</p>
             </div>
 
-            <div class="column">
+            <div class="column" data-aos="fade-up">
                 <img src="assets/dojo.JPG" alt="Karla Avalos wearing an Aikido uniform.">
             </div>
 
-            <div class="column">
+            <div class="column" data-aos="fade-up">
                 <h2>Details</h2>
                 <div class="line">
                     <h4>Name: </h4>
@@ -75,6 +75,9 @@
             </a>
         </footer>
     </div>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
