@@ -57,9 +57,13 @@ nav {
 
 /* Index Page */
 
-.container img {
+.headerImg img {
     width: 100%;
 }
+.headerImg {
+    margin: 1.5em;
+}
+
 
 #dojoPic {
     border-radius: 50%;
@@ -108,10 +112,9 @@ header {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin: 1.5em;
     }
-    header .col-md-6 {
-        margin-top: 1em;
-    }
+
 
 .subs {
     display: flex;
