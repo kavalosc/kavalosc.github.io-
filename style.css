@@ -16,11 +16,17 @@ a {
     color: dimgray;
 }
 
+h4 {
+    font-size: larger;
+}
+
+
 
 /* Nav bar Styling  */
 .topBar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 2em;
 }
 
@@ -28,8 +34,14 @@ a {
     display: flex;
 }
     .logo h4 {
+        margin-top: auto;
+        margin-bottom: auto;
         margin-right: .5em;
         color: black;
+    }
+    .logo p {
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
 nav {
@@ -45,42 +57,24 @@ nav {
 
 /* Index Page */
 
+.container img {
+    width: 100%;
+}
+
+#dojoPic {
+    border-radius: 50%;
+}
+
 header {
     text-align: center;
-    margin: 5em;
+    margin: 3em;
     background-color: #D8EDE6;
-    padding: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
     margin-top: 1em;
     border-radius: 2em;
 }
-
-    header .header-flex {
-        display: flex;
-        justify-content: space-around;
-        margin-left: 20%;
-        margin-right: 20%;
-    }
-        header .header-flex img {
-            width: 40%;
-            height: auto;
-            margin: 5%;
-            margin-top: auto;
-            margin-bottom: auto;
-            border-radius: 1em;
-        }
-
-    header .headerText {
-        background-color: white;
-        width: 40%;
-        margin: 5%;
-        border-radius: 1em;
-        text-align: center;
-        aspect-ratio: 3/4;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     header hr {
         width: 20%;
         margin-left: auto;
@@ -95,20 +89,35 @@ header {
         font-style: italic;
     }
 
- 
-.headerText h1 {
-    margin-top: .3em;
-    letter-spacing: .3em;
-    font-size: 2.5em;
-    font-family: 'Oswald', sans-serif;
+    header h1 {
+        letter-spacing: .3em;
+        font-size: 3em;
+        font-family: 'Oswald', sans-serif;
 
-}
+    }
+
+    header img {
+        border-radius: 2em;
+    }
+
+    header .headerText {
+        background-color: white;
+        aspect-ratio: 3/4;
+        border-radius: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    header .col-md-6 {
+        margin-top: 1em;
+    }
 
 .subs {
     display: flex;
     justify-content: center;
+    margin-bottom: 2em;
 }
-
 
 .subsections button {
     width: 7em;
@@ -164,8 +173,8 @@ header {
 
 .line {
     display: flex;
+    align-content: center;
     padding: .5em;
-    vertical-align: middle;
     margin-bottom: .5em;
 }
 
@@ -177,7 +186,13 @@ header {
     }
 
     .line h4 {
-        vertical-align: middle;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 1em;
+        font-size:larger;
+    }
+
+    .line p {
         margin-top: auto;
         margin-bottom: auto;
     }
@@ -240,6 +255,8 @@ hr {
 
 }
 
+/* Footer content */
+
 footer {
     width: 100%;
     text-align: center;
@@ -271,67 +288,9 @@ footer {
 
 /* About page */
 
-.about-container {
-    display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-    .about-container .column {
-        width: 33%;
-
-    }
-
-.column h2 {
-    margin-bottom: 1em;
-}
-.column .line h4{
-    margin-right: 1em;
-}
-
-.column img {
-    width: 70%;
-    border-radius: 50%;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
 .dot {
     width: 2em;
     height: 2em;
     border-radius: 50%;
     background-color: wheat;
 }
-
-
-@media only screen and (max-width: 800px) {
-    header .header-flex {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    .headerText {
-        margin: 0;
-        margin-bottom: 2em;
-        width: 100%;
-    }
-    header img {
-        margin: 0;
-        width: 100%;
-    }
-
-    .about-container {
-        display: block;
-    }
-
-    .about-container .column {
-        width: 100%;
-        margin: 2em;
-        text-align: center;
-    }
-    
-}
-
- 
