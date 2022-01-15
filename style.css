@@ -46,7 +46,7 @@ h2 {
     .logo p {
         margin-top: auto;
         margin-bottom: auto;
-        color:rgb(50, 158, 135);
+        color:rgb(25, 117, 97);
     }
 
 nav {
@@ -57,7 +57,7 @@ nav {
         margin-left: .5em;
     }
         nav a:hover {
-            color:rgb(50, 158, 135);
+            color:rgb(25, 117, 97);
         }
 
 /* Index Page */
@@ -131,7 +131,7 @@ header {
     width: 7em;
     height: 4em;
     border-radius: 2em;
-    background-color:rgb(50, 158, 135);
+    background-color:rgb(25, 117, 97);
     border: solid transparent;
     margin-right: .5em;
     margin-left: .5em;
@@ -188,7 +188,7 @@ header {
     margin-bottom: .5em;
 }
 
-    .line i {
+    .line span {
         margin-right: 1em;
         vertical-align: middle;
         margin-top: auto;
@@ -214,7 +214,7 @@ header {
         margin-bottom: auto;
     }
         .line a:hover {
-            color:rgb(50, 158, 135);
+            color:rgb(25, 117, 97);
         }
 
 .miniLine {
@@ -240,7 +240,7 @@ header {
             width: 100%;
             font-style: italic;
             margin-top: .3em;
-            color:rgb(50, 158, 135);
+            color:rgb(25, 117, 97);
         }
         .miniLine ul li {
             color: dimgray;
@@ -285,7 +285,7 @@ footer {
         margin-right: 1em;
     }
     footer a:hover{
-        color:rgb(50, 158, 135);
+        color:rgb(25, 117, 97);
     }
 
 
