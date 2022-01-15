@@ -3,7 +3,11 @@
 ### Description
 
 ### Features
-
+- There are two images implemented into the site with an attached alt attribute
+- Appropriate headings and paragraph text are implemented
+- There are 4 working pages with appropriate links in the navigation bar
+- A footer tag is implemented containing contact information
+- Google Material Icons were implemented as well as Google Fonts and AOS (Action on Scroll)
 ### Credit
 - CSS
 	- [Flexbox Froggy](https://flexboxfroggy.com/)

@@ -20,6 +20,10 @@ h4 {
     font-size: larger;
 }
 
+h2 {
+    margin-bottom: 1em;
+}
+
 
 
 /* Nav bar Styling  */
@@ -42,6 +46,7 @@ h4 {
     .logo p {
         margin-top: auto;
         margin-bottom: auto;
+        color:rgb(50, 158, 135);
     }
 
 nav {
@@ -52,7 +57,7 @@ nav {
         margin-left: .5em;
     }
         nav a:hover {
-            color:cadetblue;
+            color:rgb(50, 158, 135);
         }
 
 /* Index Page */
@@ -101,13 +106,13 @@ header {
     }
 
     header img {
-        border-radius: 2em;
+        border-radius: 1em;
     }
 
     header .headerText {
         background-color: white;
-        aspect-ratio: 3/4;
-        border-radius: 2em;
+        border-radius: 1em;
+        aspect-ratio: 1/1;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -126,7 +131,7 @@ header {
     width: 7em;
     height: 4em;
     border-radius: 2em;
-    background-color:black;
+    background-color:rgb(50, 158, 135);
     border: solid transparent;
     margin-right: .5em;
     margin-left: .5em;
@@ -207,7 +212,7 @@ header {
         margin-bottom: auto;
     }
         .line a:hover {
-            color:cadetblue;
+            color:rgb(50, 158, 135);
         }
 
 .miniLine {
@@ -233,7 +238,7 @@ header {
             width: 100%;
             font-style: italic;
             margin-top: .3em;
-            color:cadetblue;
+            color:rgb(50, 158, 135);
         }
         .miniLine ul li {
             color: dimgray;
@@ -278,7 +283,7 @@ footer {
         margin-right: 1em;
     }
     footer a:hover{
-        color:cadetblue;
+        color:rgb(50, 158, 135);
     }
 
 
