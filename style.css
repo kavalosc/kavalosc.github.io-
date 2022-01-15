@@ -127,7 +127,7 @@ header {
     margin-bottom: 2em;
 }
 
-.subsections button {
+.subsections a {
     width: 7em;
     height: 4em;
     border-radius: 2em;
@@ -140,7 +140,7 @@ header {
     color: white;
 }
 
-    .subsections button:hover {
+    .subsections a:hover {
         color: black;
         background-color:transparent;
         border: solid 1px black;
