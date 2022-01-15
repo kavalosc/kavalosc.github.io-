@@ -127,7 +127,7 @@ header {
     margin-bottom: 2em;
 }
 
-.subsections a {
+.subsections .button {
     width: 7em;
     height: 4em;
     border-radius: 2em;
@@ -135,12 +135,14 @@ header {
     border: solid transparent;
     margin-right: .5em;
     margin-left: .5em;
-    margin-top: 1.5em;
     font-family: "DM Sans";
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-    .subsections a:hover {
+    .subsections .button:hover {
         color: black;
         background-color:transparent;
         border: solid 1px black;
