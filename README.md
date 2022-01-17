@@ -1,6 +1,7 @@
 # Karla Avalos Portfolio Website
 
 ### Description
+This project took approximately 15 hours to complete over the span of several days. This website has appropriate content, it is responsive, and passes the validity checkers. In total, this assignment has fulfilled all the points required (10 points).
 
 ### Features
 - HTML Features
