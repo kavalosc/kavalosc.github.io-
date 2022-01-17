@@ -133,8 +133,7 @@ header {
     border-radius: 2em;
     background-color:rgb(25, 117, 97);
     border: solid transparent;
-    margin-right: .5em;
-    margin-left: .5em;
+    margin: .5em;
     font-family: "DM Sans";
     color: white;
     display: flex;
