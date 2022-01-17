@@ -232,11 +232,11 @@ header {
         width: 15%;
     }
 
-    .miniLine ul {
+    .miniLine .list-content {
         width: 85%;
     }
 
-        .miniLine ul p {
+        .miniLine .list-content p {
             width: 100%;
             font-style: italic;
             margin-top: .3em;
