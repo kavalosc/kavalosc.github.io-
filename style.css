@@ -27,6 +27,34 @@ h3 {
     font-weight: bold;
 }
 
+.iconify {
+    margin-right: 1.5em;
+}
+
+.seeMore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #c9d6ff;
+    aspect-ratio: 13/9;
+    margin-top: 1em;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.seeMore h3 {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+}
+
+
+.imgIndex {
+    aspect-ratio: 13/9;
+}
+
 
 
 /* Nav bar Styling  */
@@ -77,44 +105,36 @@ nav {
 
 /* Index Page */
 
+a:hover img {
+    opacity: .4;
+}
+a:hover .seeMore {
+    opacity: .4;
+}
+
 .container img {
-    width: 22vw;
-    height: 22vw;
-    object-fit: cover;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 1em;
     margin-bottom: 1em;
+    width: 100%;
 }
 .headerImg {
     margin: 1.5em;
 }
 
-
-#dojoPic {
-    border-radius: 50%;
-}
-
 .header {
     text-align: center;
-    background-color: #F6D4D2;
     padding-left: 15%;
     padding-right: 15%;
     padding-top: 5%;
     padding-bottom: 5%;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
+    margin-top: 1em;
     text-align: center;
 }
-    .header hr {
+    #headerHr {
         width: 20%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 1.5em;
-        margin-top: 1.5em;
-        color:#4120A9;
-        border: solid 1px #4120A9;
+        text-align: left;
+        margin-bottom: 2.5em;
     }
 
     .header p {
@@ -123,11 +143,11 @@ nav {
         font-style: italic;
     }
 
-    .header h1 {
-        letter-spacing: .2em;
-        margin-top: 25%;
-        font-size: 3em;
-        font-family: 'Montserrat', sans-serif;
+    h1 {
+        font-size: 9vw;
+        font-family: 'DM Sans', sans-serif;
+        font-weight:bolder;
+        margin-top: 1.5em;
 
     }
 
@@ -330,6 +350,13 @@ footer {
     footer a:hover{
         color:#4120A9;
     }
+
+    footer .iconify {
+        margin:0;
+        padding: 0;
+    }
+
+
 
 
 .page-container {
